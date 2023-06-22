@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "missing-c-backend"
+version = "0.1.0"
+description = "Backend in FastAPI/CLI for the missing_c project."
+authors = ["Lennart Wilke <lennart.r.wilke@gmail.com>"]
+readme = "README.md"
+packages = [{include = "missing_c_backend"}]
+
+[tool.poetry.dependencies]
+python = "^3.11"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
